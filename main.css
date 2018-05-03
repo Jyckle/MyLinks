@@ -3,18 +3,20 @@ html{
 }
 
 
-h1{
+h1, th{
 	background-color: #424242;
 	color: #ffffff;
 	font-size: 18pt;
 	padding: 1%;
 	margin: 1%;
+	height: 100%;
 	text-align: center;
 }
 
 .link{
 	display: block;
-	color: #1faa00;
+	color: #ffffff;
+	/*color: #1faa00;*/
 	/*float: center;*/
 	padding: 3%;
 	font-size: 15pt;
@@ -24,6 +26,7 @@ h1{
 .column{
 	width: 33.2%;
 	float: left;
+	height: 100%;
 }
 
 .nav{
@@ -49,3 +52,16 @@ h1{
 	float:left;
 }
 
+td{
+	background-color:#046601;
+	height: 100px;
+}
+
+.twocol{
+	width: 50%;
+	height: 152px;
+}
+
+tr{
+	height: 100%;
+}
