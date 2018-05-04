@@ -1,5 +1,11 @@
 html{
 	background-color: #1b1b1b;
+	background-image: url("images/stars.jpg");
+	height: 100%;
+	/* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -54,14 +60,22 @@ h1, th{
 
 td{
 	background-color:#046601;
-	height: 100px;
+	opacity: .5;
 }
 
 .twocol{
 	width: 50%;
-	height: 152px;
 }
 
-tr{
-	height: 100%;
+.twocol .link{
+	padding-top: 40%;
+	padding-bottom: 40%;
+}
+
+.threecol .link{
+	height: 100px;
+	/*line-height: 100px;*/
+	padding-top: 0%;
+	padding-bottom: 0%;
+	vertical-align: middle;
 }
