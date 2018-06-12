@@ -64,8 +64,12 @@ h1, th{
 
 td{
 	/*background-color:#046601;*/
-	background-color: #1b1b1b;
+	background-color: #1b1b1b00;
 	opacity: .5;
+}
+
+td:hover{
+	background-color: #1b1b1b;
 }
 
 .twocol{
