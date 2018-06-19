@@ -9,22 +9,6 @@ html{
 }
 
 
-
-.titleGrid{
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-}
-
-#titleElement{
-	background-color: 424242;
-	color: #ffffff;
-	font-size: 18pt;
-}
-
-
-
-
-
 h1, th{
 	background-color: #424242;
 	color: #ffffff;
