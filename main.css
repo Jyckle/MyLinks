@@ -7,7 +7,10 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Roboto, open-sans;
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 
 
 
@@ -29,7 +32,6 @@ html{
 
 #mainGrid{
 	display: grid;
-	width: 95vw;
 	grid-template-columns: repeat(3, 1fr);
 }
 
